@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/openapi_spec_validator/
 License:	None
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildSystem:	python
 BuildArch:	noarch
 
