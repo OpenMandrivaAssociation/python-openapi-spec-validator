@@ -1,0 +1,24 @@
+diff -up python-openapi-spec-validator-0.8.2/PKG-INFO.omv~ python-openapi-spec-validator-0.8.2/PKG-INFO
+--- python-openapi-spec-validator-0.8.2/PKG-INFO.omv~	2026-02-28 00:26:47.527753315 +0100
++++ python-openapi-spec-validator-0.8.2/PKG-INFO	2026-02-28 00:26:56.898331527 +0100
+@@ -21,7 +21,7 @@ Classifier: Programming Language :: Pyth
+ Classifier: Programming Language :: Python :: 3.14
+ Classifier: Topic :: Software Development :: Libraries
+ Classifier: Typing :: Typed
+-Requires-Dist: jsonschema (>=4.24.0,<4.25.0)
++Requires-Dist: jsonschema (>=4.24.0,<5.0)
+ Requires-Dist: jsonschema-path (>=0.4.2,<0.5.0)
+ Requires-Dist: lazy-object-proxy (>=1.7.1,<2.0)
+ Requires-Dist: openapi-schema-validator (>=0.7.3,<0.9.0)
+diff -up python-openapi-spec-validator-0.8.2/pyproject.toml.omv~ python-openapi-spec-validator-0.8.2/pyproject.toml
+--- python-openapi-spec-validator-0.8.2/pyproject.toml.omv~	2026-02-28 00:27:01.544902823 +0100
++++ python-openapi-spec-validator-0.8.2/pyproject.toml	2026-02-28 00:27:09.996709977 +0100
+@@ -24,7 +24,7 @@ classifiers = [
+     "Typing :: Typed",
+ ]
+ dependencies = [
+-    "jsonschema >=4.24.0,<4.25.0",
++    "jsonschema >=4.24.0,<5.0",
+     "openapi-schema-validator >=0.7.3,<0.9.0",
+     "jsonschema-path >=0.4.2,<0.5.0",
+     "lazy-object-proxy >=1.7.1,<2.0",

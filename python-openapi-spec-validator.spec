@@ -11,6 +11,9 @@ BuildRequires:	python%{pyver}dist(poetry-core)
 BuildSystem:	python
 BuildArch:	noarch
 
+%patchlist
+relax-jsonschema-deps.patch
+
 %description
 OpenAPI 2.0 (aka Swagger) and OpenAPI 3 spec validator
 
