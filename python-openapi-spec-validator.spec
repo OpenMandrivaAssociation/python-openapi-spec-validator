@@ -3,7 +3,7 @@
 
 Name:		python-openapi-spec-validator
 Version:	0.9.0
-Release:	1
+Release:	2
 Summary:	OpenAPI 2.0 (aka Swagger) and OpenAPI 3 spec validator
 License:	None
 Group:		Development/Python
